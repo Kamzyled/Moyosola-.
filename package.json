@@ -1,19 +1,22 @@
 {
   "name": "moyosola-server",
   "version": "1.0.0",
+  "description": "Multiplayer Love Quiz with AI questions",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "client-install": "cd client && yarn install",
-    "client-build": "cd client && yarn build"
+    "build": "cd client && yarn install && yarn build"
   },
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.8.0",
-    "openai": "^4.10.0"
-  }
-  "scripts": {
-  "start": "node server.js",
-  "build": "cd client && yarn install && yarn build"
-  }
+    "openai": "^4.10.0",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": ["love", "quiz", "multiplayer", "react", "socket.io", "openai"],
+  "author": "Kamzy",
+  "license": "MIT"
 }
