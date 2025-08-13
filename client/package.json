@@ -1,0 +1,15 @@
+{
+  "name": "moyosola-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client-install": "cd client && yarn install",
+    "client-build": "cd client && yarn build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.8.0",
+    "openai": "^4.10.0"
+  }
+}
